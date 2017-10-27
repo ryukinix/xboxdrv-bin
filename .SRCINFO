@@ -8,7 +8,6 @@ pkgbase = xboxdrv-bin
 	depends = libx11
 	depends = dbus-glib
 	depends = libusb
-	depends = python2-dbus
 	provides = xboxdrv
 	conflicts = xboxdrv
 	replaces = xboxdrv
@@ -17,10 +16,14 @@ pkgbase = xboxdrv-bin
 	source = xboxdrv.default
 	source = xboxdrv.openrc
 	source = xboxdrv.1
+	source = 61-twin-joystick.rules
+	source = uniq-num
 	md5sums = 2865c2821450790d52984c90b1668d80
 	md5sums = 9476a2f800ccc67d2574450d13999ff3
 	md5sums = 8c9776a687b871d9e0d59ff4b3053838
 	md5sums = 2d471a2aa0f81edecc9136a96e767d08
+	md5sums = 8b16cb255c64a0ce27cb2d9867a2426e
+	md5sums = 05cd32b6de4f3612516bc0fc6879bd11
 
 pkgname = xboxdrv-bin
 
