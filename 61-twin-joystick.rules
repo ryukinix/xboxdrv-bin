@@ -16,7 +16,7 @@ LABEL="remove"
 # Stop xboxdrv driver (this is fucked on boot... why this is triggered?)
 ACTION=="remove", SUBSYSTEMS=="usb", KERNEL=="event*", ATTRS{idVendor}=="0810", SUBSYSTEM=="input", \
       RUN+="/usr/bin/rc-service xboxdrvd stop", \
-      RUN+="/usr/bin/rm -rf $env{.COUNT_FILE}*"
+      RUN+="/usr/bin/rm -rf $env{.COUNT_FILE} $env{.COUNT_FILE}.lck"
 
 
 
