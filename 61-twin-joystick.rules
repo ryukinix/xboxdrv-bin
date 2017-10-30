@@ -17,6 +17,9 @@ LABEL="remove"
 ACTION=="remove", SUBSYSTEMS=="usb", KERNEL=="event*", ATTRS{idVendor}=="0810", SUBSYSTEM=="input", \
       RUN+="/usr/bin/rc-service xboxdrvd stop", \
       RUN+="/usr/bin/rm -rf $env{.COUNT_FILE} $env{.COUNT_FILE}.lck"
+      RUN+="/usr/bin/pkill -P 1 xboxdrv"
+
+# HACK: all above 
 
 
 
