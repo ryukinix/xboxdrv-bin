@@ -5,7 +5,7 @@
 RC_SVCNAME=xboxdrv
 command=/usr/bin/xboxdrv
 config_file=/etc/default/xboxdrv
-command_args="-c $config_file"
+command_args="-c $config_file --detach"
 pidfile=/run/$RC_SVCNAME.pid
 required_files=/etc/default/xboxdrv
 

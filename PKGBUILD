@@ -2,7 +2,7 @@
 pkgname=xboxdrv-bin
 _pkgname=xboxdrv
 pkgver=0.8.8
-pkgrel=3
+pkgrel=4
 pkgdesc="A precompiled Xbox360 joystick emulator with Playstation2 gamepad
 config"
 arch=('x86_64')
@@ -21,7 +21,7 @@ source=("https://www.dropbox.com/s/b9m78qyjyhatglx/xboxdrv.${pkgver}"
         "uniq-num")
 md5sums=('2865c2821450790d52984c90b1668d80'
          '5d6688ef948bf4ed6df0e6444e519fc4'
-         '8c9776a687b871d9e0d59ff4b3053838'
+         '9ef3163573e99e64f3d2525795511693'
          '2d471a2aa0f81edecc9136a96e767d08'
          '2dd784ec4ae87a98803c2a806d58af9c'
          '05cd32b6de4f3612516bc0fc6879bd11')
