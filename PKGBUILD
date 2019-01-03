@@ -2,9 +2,8 @@
 pkgname=xboxdrv-bin
 _pkgname=xboxdrv
 pkgver=0.8.8
-pkgrel=4
-pkgdesc="A precompiled Xbox360 joystick emulator with Playstation2 gamepad
-config"
+pkgrel=6
+pkgdesc="A precompiled Xbox360 joystick emulator with PS2 gamepad config"
 arch=('x86_64')
 url="http://pingus.seul.org/~grumbel/xboxdrv"
 license=('GPL')
@@ -18,13 +17,15 @@ source=("https://www.dropbox.com/s/b9m78qyjyhatglx/xboxdrv.${pkgver}"
         "xboxdrv.openrc"
         "xboxdrv.1"
         "61-twin-joystick.rules"
-        "uniq-num")
+        "uniq-num"
+        "xboxdrv.install")
 md5sums=('2865c2821450790d52984c90b1668d80'
-         '5d6688ef948bf4ed6df0e6444e519fc4'
-         '9ef3163573e99e64f3d2525795511693'
+         '0d8571609b39c0e696f1f6a5e4e2fe5e'
+         '5eaeac7e5ccbcd06ee5eb9096e476b85'
          '2d471a2aa0f81edecc9136a96e767d08'
-         '2dd784ec4ae87a98803c2a806d58af9c'
-         '05cd32b6de4f3612516bc0fc6879bd11')
+         '232901adbe59ee9b78a6eac525bd7f11'
+         '05cd32b6de4f3612516bc0fc6879bd11'
+         'e7797dce80d08ee9e9c575859102a8d6')
 
 
 package() {

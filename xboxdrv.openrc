@@ -18,7 +18,9 @@ depend()
 
 start() {
     ebegin "Starting ${RC_SVCNAME}"
-    start-stop-daemon --start --background \
+    start-stop-daemon --start \
+                      --wait 1000 \
+                      --background \
                       --make-pidfile --pidfile "$pidfile" \
                       --exec "${command}" -- $command_args
     eend $?
