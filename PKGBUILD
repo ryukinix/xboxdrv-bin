@@ -18,7 +18,7 @@ source=("https://www.dropbox.com/s/b9m78qyjyhatglx/xboxdrv.${pkgver}"
         "xboxdrv.openrc"
         "xboxdrv.1")
 md5sums=('2865c2821450790d52984c90b1668d80'
-         '5d6688ef948bf4ed6df0e6444e519fc4'
+         '9476a2f800ccc67d2574450d13999ff3'
          '9ef3163573e99e64f3d2525795511693'
          '2d471a2aa0f81edecc9136a96e767d08')
 
