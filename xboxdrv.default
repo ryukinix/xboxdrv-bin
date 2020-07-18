@@ -5,7 +5,7 @@
 silent = true
 # evdev-debug = true
 mimic-xpad = true
-evdev=/dev/input/by-id/usb-0810_Twin_USB_Joystick-event-port-0 # edit that for different controller
+evdev=/dev/input/by-id/usb-0810_Twin_USB_Joystick-event-joystick # edit that for different controller
 
 [xboxdrv-daemon]
 dbus = disabled
